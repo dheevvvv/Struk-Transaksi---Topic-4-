@@ -13,10 +13,10 @@ fun main() {
     print("Masukan Jumlah Buku :")
     val jumlahBuku = readLine()!!.toInt()
 
-    print("Masukan Harga Buku :")
+    print("Masukan Harga Buku (Tanpa/Tidak Menggunakan Titik) :")
     val hargaBuku = readLine()!!.toDouble()
 
-    print("Masukan Jumlah Uang Bayar :")
+    print("Masukan Jumlah Uang Bayar (Tanpa/Tidak Menggunakan Titik) :")
     val uangBayar = readLine()!!.toDouble()
 
     val transaksi1 = Transaksi(namapembeli,judulBuku,jumlahBuku,hargaBuku,uangBayar)
